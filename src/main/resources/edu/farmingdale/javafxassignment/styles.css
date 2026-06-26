@@ -1,0 +1,47 @@
+.root {
+    -fx-font-family: Arial;
+}
+
+.menu-bar {
+    -fx-background-color: #8b4a00;
+    -fx-pref-height: 28px;
+}
+
+.left-panel {
+    -fx-background-color: #bf812c;
+    -fx-pref-width: 120px;
+    -fx-padding: 15px;
+    -fx-alignment: top-center;
+}
+
+.right-panel {
+    -fx-background-color: #55e600;
+    -fx-pref-width: 190px;
+    -fx-padding: 10px;
+}
+
+.text-field {
+    -fx-pref-width: 165px;
+    -fx-pref-height: 28px;
+}
+
+.button {
+    -fx-background-color: #bf812c;
+    -fx-pref-width: 165px;
+    -fx-pref-height: 38px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+}
+
+.bottom-bar {
+    -fx-background-color: #bf812c;
+}
+
+.table-view .column-header {
+    -fx-background-color: #a6a6a6;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
